@@ -48,7 +48,7 @@ if __name__ == "__main__":
     # Main loop
     while True:
         logging.debug("Loop")
-        subreddit = reddit.get_subreddit("bottesting")
+        subreddit = reddit.get_subreddit("uwaterloo")
         subreddit_comments = subreddit.get_comments()
         current_term = uw.terms().get("current_term")
         term_dates.get(current_term)
